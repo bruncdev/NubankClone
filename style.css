@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    font-weight: 500; 
+}
+
+.nav_info {  
+    margin: 20px 20px ;  
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav_bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 48px;
+}
+
+.nav_login {
+    display: flex;
+    height: 1.125rem;
+    font-weight: bold;
+}
+
+.login_color {
+    color: #820AD1;
+}
+
+.nav_itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_1 {
+    background-image: url('https://nubank.com.br/images-cms/1649356182-home-hero-lg-3x.jpg?w=1152&dpr=1&auto=compress&fm=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.subcontent_1 {
+    padding-top: 30px;
+    padding-left: 150px;
+    color: white;
+    /* display: flex;
+    align-items: center; */
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#subtitle_1 {
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-top: 20px; 
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.form {
+    background-color: white;
+    border-radius: 1.25rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    max-width: 330px;
+    padding: 24px;
+    margin-right: 80px;
+}
+
+.form_title {
+    font-weight: 500;
+    margin: 0px 0px 32px;
+}
+
+.search_1 {
+    border: none;
+    border-bottom: #000 1px solid;
+    width: 100%;
+    padding: 5px;
+    border-bottom-color: rgba(17, 17, 17, 0.2);
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.search_1:focus {
+    outline: none;
+}
+
+.btn_1 {
+    background-color: #820AD1;
+    border-radius: 1.5rem;
+    border: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 50px;
+    margin-top: 40px;
+    /* line-height: 3.7; */
+
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;    
+}
+
+.btn_1:hover {
+    background-color: #AB4BEA;
+}
+
+.credit_content {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-top: 90px;
+}
+
+.credit_text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    /* padding: 15rem 5rem 0rem 15rem; */
+    font-size: 20px;
+}
+
+.credit_h1 {
+    color: #820AD1;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+}
+
+.credit_h1:hover {
+    color: #820AD1;
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.credit_about {
+    color: #AB4BEA;
+    margin-top: 20px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.credit_about:hover {
+    color: #820AD1;
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.card_img img {
+    width: 500px;
+    margin-left: 8rem;
+
+}
+
+
