@@ -9,10 +9,7 @@ li {
     font-weight: 500; 
 }
 
-.nav_info {  
-    margin: 20px 20px ;  
-    list-style: none;
-}
+
 
 a {
     text-decoration: none;
@@ -25,6 +22,10 @@ ul {
     justify-content: center;
 }
 
+.nav_info {  
+    margin: 20px 20px ;  
+    list-style: none;
+}
 
 .nav_bar {
     background-color: white;
@@ -42,6 +43,13 @@ ul {
 
 .login_color {
     color: #820AD1;
+    width: fit-content;
+}
+
+.login_color:hover {
+    color: #AB4BEA;
+    text-decoration: underline;
+    transition: 3s;
 }
 
 .nav_itens {
@@ -66,8 +74,6 @@ ul {
     padding-top: 30px;
     padding-left: 150px;
     color: white;
-    /* display: flex;
-    align-items: center; */
     font-weight: 600;
     font-size: 3rem;
 }
@@ -169,7 +175,6 @@ ul {
     color: #AB4BEA;
     margin-top: 20px;
     width: fit-content;
-    font-weight: bold;
 }
 
 .credit_about:hover {
@@ -183,5 +188,226 @@ ul {
     margin-left: 8rem;
 
 }
+
+.credit_violet {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-top: 90px;
+}
+
+.credit_violetext {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.credit_h1violet {
+    color: #820AD1;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+}
+
+.credit_h1violet:hover {
+    color: #AB4BEA;
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.card_imgviolet img {
+    width: 500px;
+    margin-left: 15rem;
+}
+
+.credit_about2 {
+    color: #AB4BEA;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.credit_about2:hover {
+    color: #820AD1;
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.credit_violet2 {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-top: 180px;
+}
+
+.card_imgdevice img {
+    width: 300px;
+    margin-left: 15rem;
+    padding-bottom: 100px;
+}
+
+.woman_bank {
+    background-image: url('https://nubank.com.br/images-cms/1649356503-three-young-people-outdoors-leaning-against-the-wall-lg-3x.jpg?w=1152&dpr=1&auto=compress&fm=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.woman_text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 275px;
+}
+
+.woman_texth1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.woman_about {
+    color: white;
+    padding-top: 40px;
+    width: fit-content;
+}
+
+.woman_about:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding-top: 70px
+}
+
+.nubank_p {
+    padding-bottom: 35px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nubank_p2 {
+    padding-bottom: 35px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nubank_p3 {
+    padding-bottom: 35px;
+    padding-left: 100px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nubank_p4 {
+    padding-bottom: 35px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nubank_li {
+    display: block;
+    list-style: none;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+
+.nubank_li2 {
+    display: block;
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+.nubank_li3 {
+    display: block;
+    list-style: none;
+    font-size: 1.125rem;
+    padding-left: 100px;
+    line-height: 1.7rem;
+}
+
+.nubank_li4 {
+    display: block;
+    list-style: none;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+
+.li_color {
+    color: white;
+}
+
+.li_color2 {
+    color: white;
+    font-size: 1rem;
+}
+
+.li_color:hover {
+    color: #820AD1;
+}
+
+.replace_li {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: black;
+    color: black;
+}
+
+.transp {
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 55px;  
+    padding-bottom: 100px;
+}
+
+.ear {
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 35px; 
+}
+
+.download_img {
+    width: fit-content;
+    width: 240px;
+    height: 150px;
+    border-right: 100px;
+} 
+
+.talk {
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.nubank_li2 {
+    display: block;
+    list-style: none;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+
 
 
